@@ -4,7 +4,14 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                main: theme.colors.teal['500'] // #38b2ac
+                primary: '#4169e1'
+            },
+            fontFamily: {
+                sans: ['Roboto'],
+                header: ['Allura']
+            },
+            fontSize: {
+                '7xl': '7rem'
             }
         }
     }
