@@ -2,7 +2,7 @@
   <div id="services" class="bg-white">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#EDF2F7" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,69.3C384,85,480,139,576,160C672,181,768,171,864,144C960,117,1056,75,1152,90.7C1248,107,1344,181,1392,218.7L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" /></svg>
     <section class="align-center sm:-mt-32">
-      <h1 class="font-san text-5xl font-bold text-center">
+      <h1 v-animate-onscroll.repeat="{ down: 'swing' }" class="font-san text-5xl font-bold text-center">
         What I Do
       </h1>
     </section>
@@ -17,7 +17,7 @@
             >
               <path d="M60 8H4c-2.1 0-4 1.9-4 4v26.7c0 2.1 1.9 4 4 4h25.3v8h-8c-1.6 0-2.7 1.1-2.7 2.7s1.1 2.7 2.7 2.7h21.3c1.6 0 2.7-1.1 2.7-2.7s-1.1-2.7-2.7-2.7h-8v-8H60c2.1 0 4-1.9 4-4V12c0-2.1-1.9-4-4-4zm-1.3 29.3H5.3v-24h53.3v24z" /><path d="M46.1 25.3L42.6 29c-1.1 1.1-1.1 2.7 0 3.7.5.5 1.3.8 1.9.8.8 0 1.3-.3 1.9-.8l5.3-5.3c1.1-1.1 1.1-3.2 0-4.3l-5.3-5.3c-1.1-1.1-2.7-1.1-3.7 0-1.1 1.1-1.1 2.7 0 3.7l3.4 3.8zM18.4 33.3c.5.5 1.3.8 1.9.8s1.3-.3 1.9-.8c1.1-1.1 1.1-2.7 0-3.7l-3.7-3.7 3.5-3.5c1.1-1.1 1.1-2.7 0-3.7-1.1-1.1-2.7-1.1-3.7 0L12.8 24c-1.1 1.1-1.1 3.2 0 4.3l5.6 5zM28.8 34.4c.3 0 .5.3 1.1.3 1.1 0 2.1-.5 2.4-1.6l4.8-12c.5-1.3 0-2.9-1.6-3.5-1.3-.5-2.9 0-3.5 1.6l-4.8 12c-.3 1.1.3 2.7 1.6 3.2z" /></svg>
           </div>
-          <h3 class="mt-4 uppercase text-2xl font-semibold">
+          <h3  v-animate-onscroll="{down: 'animated flip'}" class="mt-4 uppercase text-2xl font-semibold">
             Web Application
           </h3>
         </div>

@@ -17,7 +17,9 @@
     "core-js": "^3.6.5",
     "gsap": "^3.5.1",
     "nuxt": "^2.14.5",
-    "vue-slick-carousel": "^1.0.6"
+    "vue-animate-onscroll": "^1.0.8",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-typical": "^1.4.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",

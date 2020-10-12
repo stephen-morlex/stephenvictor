@@ -2,7 +2,7 @@
   <div>
     <main class="container mx-auto sm:mt-8 px-6 sm:flex sm:items-center sm:px-32 sm:py-6">
       <div class="align-center mt-12 sm:mt-0 sm:w-1/2">
-        <svg class="hero" viewBox="10 0 500 500" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="10 0 500 500" xmlns="http://www.w3.org/2000/svg">
           <path fill="none" d="M-1-1h802v602H-1z" /><g>
             <path fill="#fff" d="M68.73 102.66h125.22v83.84H68.73z" />
             <path fill="#e0e0e0" d="M194 186.5v-1.53-4.42-16.86c0-14.57-.05-35.51-.09-61l.18.18H68.88l.23-.22v83.84l-.21-.21 90.21.1 25.78.06H194.12h-9.15l-25.72.05-90.35.1h-.2v-.2V102.32h125.62v.18c0 25.57-.07 46.55-.1 61.14v21.21c0 1-.22 1.65-.22 1.65z" /><path fill="#e0e0e0" d="M68.73 110.14c0-.12 28-.23 62.56-.23s62.56.11 62.56.23-28 .22-62.56.22-62.56-.12-62.56-.22z" /><path fill="#e0e0e0" d="M73.67 106.36a1 1 0 11-1-1 1 1 0 011 1z" opacity=".3" /><circle fill="#e0e0e0" r="1" cy="106.36" cx="76.11" opacity=".3" />
@@ -13,9 +13,16 @@
       </div>
       <div class="sm:w-1/2 sm:align-center">
         <div>
-          <h1 class="text-5xl sm:text-7xl font-bold tracking-wide text-black mt-4 text-center font-header">
+          <!-- <h1 class="text-5xl sm:text-7xl font-bold tracking-wide text-black mt-4 text-center font-header">
             A FULL STACK DEVELOPER
-          </h1>
+          </h1> -->
+
+          <typical
+            class="text-5xl sm:text-7xl font-bold tracking-wide text-black mt-4 text-center"
+            :steps="['A', 1000, 'Fall Stack!', 500, 'Developer', 1000]"
+            :loop="Infinity"
+            :wrapper="'h1'"
+          />
           <!-- <p class="mt-4 font-2xl text-justify">
             Hi, I'm a Developer and a Designer, I does designs like Mobile UI, Web Design, Graphic Design and and offer a better service to my clients by telling them that I can code too! I spend far too much time on the web, keeping one eye on Twitter and the other on Product Hunt to ensure I dont miss out on any new products! As well as web design, I have a real desire to learn iOS development as well, but all in good time. I'm an Expert in Laravel Framework, Vue js and Tailwind CSS .
           </p> -->
@@ -41,7 +48,12 @@
 
 <script>
 // import { gsap } from 'gsap'
+import typical from 'vue-typical'
+
 export default {
+  components: {
+    typical
+  },
   data () {
     return {
 
