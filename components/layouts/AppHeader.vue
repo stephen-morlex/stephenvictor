@@ -24,22 +24,22 @@
         <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex sm:p-0 z-50 sm:z-0 bg-white border-t-2 sm:border-t-0 w-full right-0 sm:left-0  absolute sm:relative  text-lg tracking-wide">
           <ul class="sm:flex">
             <li @click="isOpen = !isOpen">
-              <nuxt-link to="about" class="block px-2 py-1 text-gray-900 font-semibold rounded hover:text-primary" @click="!isOpen">
+              <nuxt-link to="#services" class="block px-2 py-1 text-gray-900 font-semibold rounded hover:text-primary" @click="!isOpen">
                 What I Do
               </nuxt-link>
             </li>
             <li @click="isOpen = !isOpen">
-              <nuxt-link to="/portfolio" class="mt-1 block px-2 py-1 text-gray-900 font-semibold rounded hover:text-primary sm:mt-0 sm:ml-2">
+              <nuxt-link to="#portfolio" class="mt-1 block px-2 py-1 text-gray-900 font-semibold rounded hover:text-primary sm:mt-0 sm:ml-2">
                 Portfolio
               </nuxt-link>
             </li>
             <li @click="isOpen = !isOpen">
-              <nuxt-link to="blog" class="mt-1 block px-2 py-1 text-gray-900 font-semibold rounded hover:text-primary sm:mt-0 sm:ml-2">
+              <nuxt-link to="#about-me" class="mt-1 block px-2 py-1 text-gray-900 font-semibold rounded hover:text-primary sm:mt-0 sm:ml-2">
                 About
               </nuxt-link>
             </li>
             <li @click="isOpen = !isOpen">
-              <nuxt-link to="/contact" class="mt-1 block px-2 py-1 text-gray-900 font-semibold rounded hover:text-primary sm:mt-0 sm:ml-2">
+              <nuxt-link to="#contact" class="mt-1 block px-2 py-1 text-gray-900 font-semibold rounded hover:text-primary sm:mt-0 sm:ml-2">
                 Contact
               </nuxt-link>
             </li>

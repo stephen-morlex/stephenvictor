@@ -4,7 +4,8 @@
       <HeroComponent />
       <ServicesComponent />
       <PortfolioHomeComponent />
-      <BlogHomeComponent />
+      <AboutHomeComponent />
+      <ContactComponent />
     </section>
   </div>
 </template>

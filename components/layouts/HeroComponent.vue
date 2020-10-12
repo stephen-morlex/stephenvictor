@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import { gsap } from 'gsap'
+// import { gsap } from 'gsap'
 export default {
   data () {
     return {
@@ -48,7 +48,7 @@ export default {
     }
   },
   mounted () {
-    gsap.from('.hero', { x: -400, ease: 'bounce.in', duration: 1 })
+    // gsap.from('.hero', { x: -400, ease: 'bounce.in', duration: 1 })
   }
 }
 
