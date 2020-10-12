@@ -9,6 +9,8 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
