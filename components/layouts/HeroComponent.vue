@@ -1,7 +1,7 @@
 <template>
   <div>
     <main class="container mx-auto sm:mt-8 px-6 sm:flex sm:items-center sm:px-32 sm:py-6">
-      <div class="align-center mt-12 sm:mt-0 sm:w-1/2">
+      <div class="hero align-center mt-12 sm:mt-0 sm:w-1/2">
         <svg viewBox="10 0 500 500" xmlns="http://www.w3.org/2000/svg">
           <path fill="none" d="M-1-1h802v602H-1z" /><g>
             <path fill="#fff" d="M68.73 102.66h125.22v83.84H68.73z" />
@@ -39,6 +39,20 @@
   </div>
 </template>
 
+<script>
+import { gsap } from 'gsap'
+export default {
+  data () {
+    return {
+
+    }
+  },
+  mounted () {
+    gsap.from('.hero', { x: -400, ease: 'bounce.in', duration: 1 })
+  }
+}
+
+</script>
 <style lang="css" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
-</style>>
+</style>
