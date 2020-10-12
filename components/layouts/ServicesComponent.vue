@@ -22,7 +22,7 @@
           </h3>
         </div>
         <div class="content mt-4 text-center">
-          Fast, Responsive and User-friendly web applications
+          Fast, Responsive and User-friendly
         </div>
       </div>
       <div class="p-6 sm:p-0">

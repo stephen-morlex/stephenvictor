@@ -19,7 +19,7 @@
 
           <typical
             class="text-5xl sm:text-7xl font-bold tracking-wide text-black mt-4 text-center"
-            :steps="['A', 1000, 'Fall Stack!', 500, 'Developer', 1000]"
+            :steps="['A', 1000, 'Full Stack!', 500, 'Developer', 1000]"
             :loop="Infinity"
             :wrapper="'h1'"
           />
