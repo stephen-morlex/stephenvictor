@@ -91,7 +91,7 @@
           </h3>
         </div>
         <div class="content mt-4 text-center">
-          Software consulting and ICT support
+          Software consultation and ICT support
         </div>
       </div><div class="p-6 sm:p-0">
         <div class="title flex flex-col items-center">
@@ -108,7 +108,7 @@
           </h3>
         </div>
         <div class="content mt-4 text-center">
-          Latest trends design with professional look
+          Latest trend design with professional look
         </div>
       </div>
     </section>
