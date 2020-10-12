@@ -22,7 +22,7 @@
           </h3>
         </div>
         <div class="content mt-4 text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, doloribus.
+          Fast, Responsive and User-friendly web applications
         </div>
       </div>
       <div class="p-6 sm:p-0">
@@ -40,7 +40,7 @@
           </h3>
         </div>
         <div class="content mt-4 text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, doloribus.
+          Android, IOS mobile apps and  Hybrid App.
         </div>
       </div><div class="p-6 sm:p-0">
         <div class="title flex flex-col items-center">
@@ -57,7 +57,7 @@
           </h3>
         </div>
         <div class="content mt-4 text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, doloribus.
+          Secure and durable desktop appilcation
         </div>
       </div><div class="p-6 sm:p-0">
         <div class="title flex flex-col items-center">
@@ -74,7 +74,7 @@
           </h3>
         </div>
         <div class="content mt-4 text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, doloribus.
+          Secured, Availability, and fast
         </div>
       </div><div class="p-6 sm:p-0">
         <div class="title flex flex-col items-center">
@@ -91,7 +91,7 @@
           </h3>
         </div>
         <div class="content mt-4 text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, doloribus.
+          Software consulting and ICT support
         </div>
       </div><div class="p-6 sm:p-0">
         <div class="title flex flex-col items-center">
@@ -108,7 +108,7 @@
           </h3>
         </div>
         <div class="content mt-4 text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, doloribus.
+          Latest trends design with professional look
         </div>
       </div>
     </section>

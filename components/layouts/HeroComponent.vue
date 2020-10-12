@@ -1,8 +1,8 @@
 <template>
   <div>
     <main class="container mx-auto sm:mt-8 px-6 sm:flex sm:items-center sm:px-32 sm:py-6">
-      <div class="hero align-center mt-12 sm:mt-0 sm:w-1/2">
-        <svg viewBox="10 0 500 500" xmlns="http://www.w3.org/2000/svg">
+      <div class="align-center mt-12 sm:mt-0 sm:w-1/2">
+        <svg class="hero" viewBox="10 0 500 500" xmlns="http://www.w3.org/2000/svg">
           <path fill="none" d="M-1-1h802v602H-1z" /><g>
             <path fill="#fff" d="M68.73 102.66h125.22v83.84H68.73z" />
             <path fill="#e0e0e0" d="M194 186.5v-1.53-4.42-16.86c0-14.57-.05-35.51-.09-61l.18.18H68.88l.23-.22v83.84l-.21-.21 90.21.1 25.78.06H194.12h-9.15l-25.72.05-90.35.1h-.2v-.2V102.32h125.62v.18c0 25.57-.07 46.55-.1 61.14v21.21c0 1-.22 1.65-.22 1.65z" /><path fill="#e0e0e0" d="M68.73 110.14c0-.12 28-.23 62.56-.23s62.56.11 62.56.23-28 .22-62.56.22-62.56-.12-62.56-.22z" /><path fill="#e0e0e0" d="M73.67 106.36a1 1 0 11-1-1 1 1 0 011 1z" opacity=".3" /><circle fill="#e0e0e0" r="1" cy="106.36" cx="76.11" opacity=".3" />
@@ -13,7 +13,7 @@
       </div>
       <div class="sm:w-1/2 sm:align-center">
         <div>
-          <h1 class="text-5xl sm:text-7xl text-black mt-4 text-center font-header">
+          <h1 class="text-5xl sm:text-7xl font-bold tracking-wide text-black mt-4 text-center font-header">
             A FULL STACK DEVELOPER
           </h1>
           <!-- <p class="mt-4 font-2xl text-justify">
@@ -40,7 +40,7 @@
 </template>
 
 <script>
-// import { gsap } from 'gsap'
+import { gsap } from 'gsap'
 export default {
   data () {
     return {
@@ -48,11 +48,11 @@ export default {
     }
   },
   mounted () {
-    // gsap.from('.hero', { x: -400, ease: 'bounce.in', duration: 1 })
+    gsap.from('.hero', { x: -500, ease: 'linear' })
   }
 }
 
 </script>
 <style lang="css" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 </style>
