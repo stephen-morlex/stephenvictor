@@ -1,12 +1,10 @@
 <template>
-  <div class="w-full">
-    <section>
-      <HeroComponent />
-      <ServicesComponent />
-      <PortfolioHomeComponent />
-      <AboutHomeComponent />
-      <ContactComponent />
-    </section>
+  <div>
+    <HeroComponent />
+    <ServicesComponent />
+    <PortfolioHomeComponent />
+    <AboutHomeComponent />
+    <ContactComponent />
   </div>
 </template>
 
