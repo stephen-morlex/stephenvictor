@@ -1,12 +1,12 @@
 <template>
   <div
-    class="relative font-sans antialiased leading-10 tracking-widest text-gray-900 bg-gray-200 "
+    class="font-sans antialiased leading-10 tracking-widest text-gray-900 bg-gray-200 "
   >
     <AppHeader />
     <main class="">
       <Nuxt />
     </main>
-    <!-- <AppFooter /> -->
+    <AppFooter />
   </div>
 </template>
 

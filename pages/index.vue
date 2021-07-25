@@ -3,8 +3,8 @@
     <HeroComponent />
     <ServicesComponent />
     <PortfolioHomeComponent />
-    <!-- <AboutHomeComponent />
-    <ContactComponent /> -->
+    <ArticleComponent />
+    <!-- <ContactComponent /> -->
   </div>
 </template>
 
