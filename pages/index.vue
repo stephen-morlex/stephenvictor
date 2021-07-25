@@ -4,7 +4,6 @@
     <ServicesComponent />
     <PortfolioHomeComponent />
     <ArticleComponent />
-    <!-- <ContactComponent /> -->
   </div>
 </template>
 

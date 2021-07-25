@@ -20,7 +20,7 @@
               As a web designer probably there a lot of attributes that you are familiar with and you use them frequently but here are 7 attributes that you may not be using...
             </p>
           </div>
-         <!-- Projects -->
+          <!-- Projects -->
           <div class="mb-4 article">
             <div class="title">
               <h3 class="relative flex items-center text-xl font-bold ">

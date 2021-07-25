@@ -1,5 +1,5 @@
 <template>
-  <div id="article">
+  <div id="article" class="mb-32">
     <div class="relative w-full h-screen">
       <svg viewBox="0 0 8000 5634">
         <defs><mask id="a">
@@ -89,6 +89,19 @@
         </div>
         <div class="p-2 font-bold text-center cursor-pointer text-primary bg-secondary">
           <a href="">Read more</a>
+        </div>
+        <div class="grid items-center grid-cols-5 gap-4 mt-4 text-blue-800">
+          <p class="col-span-2 text-sm">
+            Subscribe to my newsletter and never miss my upcoming articles
+          </p>
+          <div class="col-span-3 subcribe">
+            <form action="#" method="post">
+           <input class="placeholder-blue-800 border-blue-800 border-2 focus:placeholder-gray-400 ..." placeholder="Enter your Email">
+              <button class="bg-blue-800  focus:outline-none focus:ring-4 focus:ring-blue-800 focus:ring-opacity-50">
+                Subcribe
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
