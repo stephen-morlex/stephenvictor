@@ -10,6 +10,11 @@
   </div>
 </template>
 
+<script>
+export default {
+
+}
+</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:ital,wght@1,500&display=swap');
 

@@ -113,10 +113,10 @@
         <!-- Newsletter -->
         <div class="flex items-center justify-between gap-4 my-12 text-blue-800">
           <div class="leading-normal">
-            <h3 class="mb-4 text-2xl text-black text-extrabold font-hero">
+            <h3 class="mb-4 text-2xl text-black underline text-extrabold">
               Get notify on latest articles
             </h3>
-            <p class="">
+            <p class="text-justify ">
               Subscribe to my newsletter and never miss my upcoming articles
             </p>
           </div>
