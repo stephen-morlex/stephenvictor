@@ -2,7 +2,7 @@
   <div
     class="font-sans antialiased leading-10 tracking-widest text-gray-900 bg-gray-200 "
   >
-    <AppHeader />
+    <!-- <AppHeader /> -->
     <main class="">
       <Nuxt />
     </main>
@@ -19,7 +19,7 @@ a.nuxt-link-active {
 }
 /* exact link will show the primary color for only the exact matching link */
 a.nuxt-link-exact-active {
-  color: #fdf25c;
-  background-color: #1142ff;
+  /* color: #fdf25c;
+  background-color: #1142ff; */
 }
 </style>

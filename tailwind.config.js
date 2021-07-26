@@ -14,7 +14,7 @@ module.exports = {
       },
       fontFamily: {
         hero: ['Playfair Display'],
-        sans: ['roboto'],
+        // sans: ['roboto'],
         header: ['Philosopher']
       },
       fontSize: {
