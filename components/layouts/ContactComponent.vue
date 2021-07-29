@@ -32,7 +32,7 @@
           </div>
           <div>
             <h1 class="mb-4 text-5xl font-extrabold leading-relaxed text-center text-black font-hero">
-              Contact me 😉
+              Contact me 😊
             </h1>
           </div>
         </div>

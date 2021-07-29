@@ -31,7 +31,7 @@
       <!-- Articles container -->
       <div class="container absolute top-0 z-10 px-64 mx-auto">
         <h1 class="mb-4 text-5xl font-extrabold leading-relaxed text-center text-black font-hero">
-          Articles
+          Articles 🗞️
         </h1>
         <!-- Articles -->
         <div class="articles">
