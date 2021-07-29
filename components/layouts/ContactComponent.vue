@@ -28,11 +28,11 @@
       <div class="container absolute top-0 z-10 px-32 mx-auto text-7xl">
         <div class="grid gap-4 grid-col-2">
           <div class="object-cover w-full h-full">
-            <nuxt-img src="/images/smile.png" />
+            <img src="/images/smile.png">
           </div>
           <div>
             <h1 class="mb-4 text-5xl font-extrabold leading-relaxed text-center text-black font-hero">
-              Projects
+              Contact me 😉
             </h1>
           </div>
         </div>
@@ -40,7 +40,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   data () {
