@@ -1,7 +1,7 @@
 <template>
-  <div id="contact">
+  <div id="contact h-screen">
     <div class="relative">
-      <svg class="z-0 " viewBox="0 0 8000 5634">
+      <svg class="z-0" viewBox="0 0 8000 5634">
         <defs>
           <mask id="a">
             <use fill="#FFF" xlink:href="#b" />
@@ -25,15 +25,30 @@
           <path fill="#FFF100" d="M2199.75 6922.34L1876.56 6407.9c-153.58 96.22-319.547 140.45-486.49 140.69 -152.37.24-303.751-38.15-437.65-110.32 -133.9-72.66-249.81-177.64-337.78-317.61l-.49-.49c-96.23-153.59-140.7-319.55-140.95-486.491 0-151.88 38.15-303.27 110.32-436.92 72.65-133.9 177.63-250.05 317.6-338.26 152.84-95.75 318.33-139.97 485.27-140.46 152.36 0 304.23 38.15 438.13 110.57 134.13 72.89 250.04 177.63 338.01 317.35l.48.48c95.98 153.09 140.21 318.576 140.45 485.52 .24 152.11-38.16 303.98-110.57 437.88 -72.66 134.13-177.4 250.29-316.88 338.25l.48-.25 323.192 514.43 323.67 513.94c320.029-201.21 570.8-477.26 738.96-789.27 168.39-312.51 256.12-661.21 256.12-1015.02 .48-387.11-106.44-782.47-327.33-1132.88l.24.48c-201.21-320.52-477.26-571.55-789.76-739.95 -312.26-168.65-661.21-256.37-1015.26-256.61 -387.11-.25-781.98 106.43-1132.39 327.08 -320.04 200.96-571.054 476.77-739.211 789.02 -168.65 312.25-256.61 660.96-256.61 1014.53 -.25 387.58 106.68 782.94 327.808 1133.84l-.49-.73c201.2 320.51 477.01 571.781 789.268 740.17 312.5 168.88 661.2 256.6 1015.26 256.6 387.09.48 782.219-106.44 1132.87-326.83l.49-.49 -323.68-513.95Z" />
         </g>
       </svg>
-      <div class="container absolute top-0 z-10 px-32 mx-auto text-7xl">
-        <div class="grid gap-4 grid-col-2">
-          <div class="object-cover w-full h-full">
-            <img src="/images/smile.png">
+      <div class="container absolute top-0 px-32 mx-auto top-25">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="object-cover">
+            <img
+              class="w-full"
+              src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+              alt=""
+              srcset=""
+            >
           </div>
           <div>
-            <h1 class="mb-4 text-5xl font-extrabold leading-relaxed text-center text-black font-hero">
+            <h1 class="col-start-3 mb-4 text-5xl font-extrabold leading-relaxed text-black text-start font-hero">
               Contact me 😊
             </h1>
+            <div class="mt-4 bg-gray-400">
+              <form action="" class="form">
+                <div class="form-input">
+                  <h5 class="text-gray-400 " for="name">
+                    Full name:
+                  </h5>
+                  <input class="text-gray-400 " type="text" placeholder="Enter your Full name">
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -44,11 +59,9 @@
 export default {
   data () {
     return {
-
     }
   }
 }
-
 </script>
 <style lang="css" scoped>
 
