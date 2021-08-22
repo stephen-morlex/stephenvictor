@@ -45,8 +45,21 @@
                   <h5 class="text-gray-400 " for="name">
                     Full name:
                   </h5>
-                  <input class="text-gray-400 " type="text" placeholder="Enter your Full name">
+                  <input class="w-full px-4 py-4 text-gray-200 bg-yellow-200" type="text" placeholder="Enter your Full name">
                 </div>
+                <div class="form-input">
+                  <h5 class="text-gray-400 " for="name">
+                    Email:
+                  </h5>
+                  <input class="w-full px-4 py-4 text-gray-200 bg-yellow-200" type="text" placeholder="Enter your Full name">
+                </div>
+                <div class="form-input">
+                  <h5 class="text-gray-400 " for="name">
+                    Message:
+                  </h5>
+                  <textarea class="w-full px-4 py-4 text-gray-200 bg-yellow-200" type="text" placeholder="Enter your Full name" />
+                </div>
+                <button class="px-3 py-1 text-white rounded bg-primary">Send mesage</button>
               </form>
             </div>
           </div>
@@ -64,5 +77,4 @@ export default {
 }
 </script>
 <style lang="css" scoped>
-
 </style>
