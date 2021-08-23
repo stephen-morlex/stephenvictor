@@ -1,7 +1,7 @@
 <template>
-  <div id="contact h-screen">
+  <div id="contact ">
     <div class="relative">
-      <svg class="z-0" viewBox="0 0 8000 5634">
+      <svg class="z-0 h-screen" viewBox="0 0 8000 5634">
         <defs>
           <mask id="a">
             <use fill="#FFF" xlink:href="#b" />
@@ -22,19 +22,27 @@
             <path d="M6646.13 3404.67h39.52c.15-46.76 14.98-81.31 40.15-111.98 25.21-30.52 61.62-56.41 103.35-80.91 83.39-49.41 187.46-92.37 259.87-169.84 48.26-51.62 81.18-120.12 80.94-211.86h-39.53c-.08 61.93-15.85 108.97-41.47 148.21 -25.66 39.16-61.74 70.59-103.05 98.29 -82.57 55.76-185.06 94.78-257.35 157.15 -48.18 41.38-82.81 96.48-82.49 170.9Z" />
             <path d="M6646.13 2255.6h39.52c.15-46.76 14.98-81.31 40.15-111.98 25.21-30.52 61.62-56.37 103.35-80.91 83.39-49.37 187.46-92.33 259.87-169.8 48.26-51.66 81.18-120.12 80.94-211.856h-39.53c-.08 61.93-15.85 108.971-41.47 148.18 -25.66 39.16-61.74 70.59-103.05 98.33 -82.57 55.77-185.06 94.78-257.35 157.11 -48.18 41.38-82.81 96.48-82.49 170.9Z" />
           </g>
-          <path fill="#FFF100" d="M2199.75 6922.34L1876.56 6407.9c-153.58 96.22-319.547 140.45-486.49 140.69 -152.37.24-303.751-38.15-437.65-110.32 -133.9-72.66-249.81-177.64-337.78-317.61l-.49-.49c-96.23-153.59-140.7-319.55-140.95-486.491 0-151.88 38.15-303.27 110.32-436.92 72.65-133.9 177.63-250.05 317.6-338.26 152.84-95.75 318.33-139.97 485.27-140.46 152.36 0 304.23 38.15 438.13 110.57 134.13 72.89 250.04 177.63 338.01 317.35l.48.48c95.98 153.09 140.21 318.576 140.45 485.52 .24 152.11-38.16 303.98-110.57 437.88 -72.66 134.13-177.4 250.29-316.88 338.25l.48-.25 323.192 514.43 323.67 513.94c320.029-201.21 570.8-477.26 738.96-789.27 168.39-312.51 256.12-661.21 256.12-1015.02 .48-387.11-106.44-782.47-327.33-1132.88l.24.48c-201.21-320.52-477.26-571.55-789.76-739.95 -312.26-168.65-661.21-256.37-1015.26-256.61 -387.11-.25-781.98 106.43-1132.39 327.08 -320.04 200.96-571.054 476.77-739.211 789.02 -168.65 312.25-256.61 660.96-256.61 1014.53 -.25 387.58 106.68 782.94 327.808 1133.84l-.49-.73c201.2 320.51 477.01 571.781 789.268 740.17 312.5 168.88 661.2 256.6 1015.26 256.6 387.09.48 782.219-106.44 1132.87-326.83l.49-.49 -323.68-513.95Z" />
+          <path class="absolute top-0" fill="#FFF100" d="M2199.75 6922.34L1876.56 6407.9c-153.58 96.22-319.547 140.45-486.49 140.69 -152.37.24-303.751-38.15-437.65-110.32 -133.9-72.66-249.81-177.64-337.78-317.61l-.49-.49c-96.23-153.59-140.7-319.55-140.95-486.491 0-151.88 38.15-303.27 110.32-436.92 72.65-133.9 177.63-250.05 317.6-338.26 152.84-95.75 318.33-139.97 485.27-140.46 152.36 0 304.23 38.15 438.13 110.57 134.13 72.89 250.04 177.63 338.01 317.35l.48.48c95.98 153.09 140.21 318.576 140.45 485.52 .24 152.11-38.16 303.98-110.57 437.88 -72.66 134.13-177.4 250.29-316.88 338.25l.48-.25 323.192 514.43 323.67 513.94c320.029-201.21 570.8-477.26 738.96-789.27 168.39-312.51 256.12-661.21 256.12-1015.02 .48-387.11-106.44-782.47-327.33-1132.88l.24.48c-201.21-320.52-477.26-571.55-789.76-739.95 -312.26-168.65-661.21-256.37-1015.26-256.61 -387.11-.25-781.98 106.43-1132.39 327.08 -320.04 200.96-571.054 476.77-739.211 789.02 -168.65 312.25-256.61 660.96-256.61 1014.53 -.25 387.58 106.68 782.94 327.808 1133.84l-.49-.73c201.2 320.51 477.01 571.781 789.268 740.17 312.5 168.88 661.2 256.6 1015.26 256.6 387.09.48 782.219-106.44 1132.87-326.83l.49-.49 -323.68-513.95Z" />
         </g>
       </svg>
       <div class="container absolute top-0 px-32 mx-auto top-25">
-        <div class="grid grid-cols-2 gap-4">
-          <div class="object-cover">
+        <div class="grid items-center grid-cols-2 gap-4">
+          <div class="relative items-center object-cover">
             <img
-              class="w-full"
-              src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+              class="w-full h-77"
+              src="~/assets/images/smile.png"
               alt=""
               srcset=""
             >
+            <div class="social">
+              <ul class="flex items-center justify-between">
+                <li>
+                  <a href="#" />
+                </li>
+              </ul>
+            </div>
           </div>
+
           <div>
             <h1 class="col-start-3 mb-4 text-5xl font-extrabold leading-relaxed text-black text-start font-hero">
               Contact me 😊
@@ -42,24 +50,26 @@
             <div class="mt-4 bg-gray-400">
               <form action="" class="form">
                 <div class="form-input">
-                  <h5 class="text-gray-400 " for="name">
+                  <h5 class="font-semibold tracking-widest text-gray-400" for="name">
                     Full name:
                   </h5>
-                  <input class="w-full px-4 py-4 text-gray-200 bg-yellow-200" type="text" placeholder="Enter your Full name">
+                  <input class="w-full px-4 py-2 text-gray-200 bg-yellow-200 rounded r" type="text" placeholder="Enter your Full name">
                 </div>
                 <div class="form-input">
-                  <h5 class="text-gray-400 " for="name">
+                  <h5 class="font-semibold tracking-widest text-gray-400" for="name">
                     Email:
                   </h5>
-                  <input class="w-full px-4 py-4 text-gray-200 bg-yellow-200" type="text" placeholder="Enter your Full name">
+                  <input class="w-full px-4 py-2 text-gray-200 bg-yellow-200 rounded r" type="text" placeholder="Enter your Full name">
                 </div>
                 <div class="form-input">
-                  <h5 class="text-gray-400 " for="name">
+                  <h5 class="font-semibold tracking-widest text-gray-400" for="name">
                     Message:
                   </h5>
-                  <textarea class="w-full px-4 py-4 text-gray-200 bg-yellow-200" type="text" placeholder="Enter your Full name" />
+                  <textarea class="w-full px-4 py-4 text-gray-200 bg-yellow-200 rounded r" type="text" placeholder="Enter your Full name" />
                 </div>
-                <button class="px-3 py-1 text-white rounded bg-primary">Send mesage</button>
+                <button class="px-3 py-1 text-yellow-200 bg-blue-800 rounded text-w">
+                  Send mesage
+                </button>
               </form>
             </div>
           </div>
