@@ -1,8 +1,8 @@
 <template>
-  <div id="portfolio" class="">
+  <div id="portfolio" class="z-30">
     <div class="relative w-full">
       <!-- BG Layout -->
-      <svg viewBox="0 0 8000 5634">
+      <svg viewBox="0 0 8000 5634" class="z-10">
         <defs><mask id="a"><use fill="#FFF" xlink:href="#b" /></mask><path id="b" d="M0 0h8000v5633.33H0Z" />
         </defs>
         <use fill="#FFF" fill-rule="evenodd" xlink:href="#b" />

@@ -18,10 +18,10 @@
         </g>
       </svg>
       <div class="absolute w-1/2 hero-content ">
-        <h1 class="mb-4 text-5xl font-extrabold leading-relaxed text-black font-hero">
+        <h1 class="mb-4 text-5xl font-extrabold leading-relaxed text-gray-800 font-hero">
           Hi, I'm Stephen Victor.
         </h1>
-        <p class="text-xl font-bold text-justify text-blue-800 ">
+        <p class="text-xl font-bold text-justify text-blue-900 ">
           My passion is making ideas come to life, Throughtout my 3 years of development experience, I work as a freelancer building products from the ground up or implementing new features for some startup companies.
           I'm a Full Stack Developer, My go-to technologies are Laravel, Vue.js and Flutter.
         </p>
