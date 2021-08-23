@@ -1,5 +1,5 @@
 <template>
-  <div id="contact ">
+  <div id="contact fixed ">
     <div class="relative">
       <svg class="z-0" viewBox="0 0 8000 5634">
         <defs>

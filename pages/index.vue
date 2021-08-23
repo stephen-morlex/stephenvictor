@@ -1,9 +1,14 @@
 <template>
   <div>
-    <HeroComponent />
-    <ServicesComponent />
-    <PortfolioHomeComponent />
-    <ArticleComponent />
+    <div>
+      <HeroComponent />
+    </div>
+    <div class="mt-4">
+      <PortfolioHomeComponent />
+    </div>
+    <div class="-mt-32">
+      <ArticleComponent />
+    </div>
   </div>
 </template>
 

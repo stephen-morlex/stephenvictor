@@ -1,6 +1,6 @@
 <template>
-  <div id="portfolio" class="pb-16">
-    <div class="relative w-full h-screen">
+  <div id="portfolio" class="">
+    <div class="relative w-full">
       <!-- BG Layout -->
       <svg viewBox="0 0 8000 5634">
         <defs><mask id="a"><use fill="#FFF" xlink:href="#b" /></mask><path id="b" d="M0 0h8000v5633.33H0Z" />
@@ -93,7 +93,7 @@
           </div>
         </div>
         <!-- Read more button -->
-        <div class="p-2 font-extrabold tracking-wider text-center text-blue-800 uppercase bg-yellow-400 cursor-pointer hover:bg-blue-800 hover:text-yellow-400">
+        <div class="p-2 font-extrabold tracking-wider text-center text-blue-800 uppercase bg-yellow-400 cursor-pointer hover:bg-primary hover:text-yellow-400">
           <NuxtLink to="/projects">
             More Projects
           </NuxtLink>
