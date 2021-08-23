@@ -1,6 +1,6 @@
 <template>
   <div class="absolute right-0 z-50">
-    <nav class="sticky">
+    <nav class="sticky bg-blue-200">
       <ul class="items-baseline justify-center block font-bold text-primary">
         <li class="px-2 mr-4 rounded-sm hover:shadow hover:text-yellow-400 ">
           <a href="/" class="cursor-pointer">
