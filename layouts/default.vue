@@ -18,10 +18,4 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:ital,wght@1,500&display=swap');
 
-/* home route and active route will show in bold as it matches / and /about */
-a.nuxt-link-active {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
 </style>

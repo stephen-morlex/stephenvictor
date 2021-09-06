@@ -35,3 +35,9 @@ export default {
   }
 }
 </script>
+<style scoped>
+a.nuxt-link-active {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+</style>
