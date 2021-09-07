@@ -34,7 +34,7 @@
               alt=""
               srcset=""
             >
-            <div class="p-2 ml-10 mr-24 bg-yellow-200 social">
+            <div class="p-2 ml-10 mr-24 bg-yellow-200 rounded-md social">
               <ul class="flex items-center justify-center">
                 <li>
                   <a href="">
