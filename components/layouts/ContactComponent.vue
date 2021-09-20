@@ -78,7 +78,14 @@
           </div>
 
           <div>
-            <h1 class="col-start-3 mb-4 text-5xl font-extrabold leading-relaxed text-black text-start font-hero">
+            <h1
+              v-anime="{
+
+                duration: 3000,
+                loop: true,
+              }"
+              class="col-start-3 mb-4 text-5xl font-extrabold leading-relaxed text-black text-start font-hero"
+            >
               Contact me 😊
             </h1>
             <div class="mt-4 bg-gray-400">
