@@ -22,7 +22,7 @@
           Hi, I'm Stephen Victor.
         </h1>
         <p class="text-xl font-bold text-justify text-blue-900 ">
-          My passion is making ideas come to life, Throughtout my 3 years of development experience, I work as a freelancer building products from the ground up or implementing new features for some startup companies.
+          My passion is making ideas come to life, Throughtout my years of development experience, I work as a freelancer building products from the ground up or implementing new features for some startup companies.
           I'm a Full Stack Developer, My go-to technologies are Laravel, Vue.js and Flutter.
         </p>
       </div>
