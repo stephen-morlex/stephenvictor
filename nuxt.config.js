@@ -1,4 +1,5 @@
-export default {
+import { defineNuxtConfig } from '@nuxt/bridge';
+export default defineNuxtConfig({
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
   // Global page headers (https://go.nuxtjs.dev/config-head)
@@ -37,10 +38,8 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
+    '@nuxtjs/pwa'
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
-    // '@nuxtjs/sitemap'
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -52,12 +51,5 @@ export default {
   build: {},
   colorMode: {
     classSuffix: ''
-  },
-  // Loading component
-  loading: '~/components/LoadingBar.vue',
-  loadingIndicator: {
-    name: 'circle',
-    color: '#3B8070',
-    background: 'white'
   }
-}
+})

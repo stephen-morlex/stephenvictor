@@ -2,11 +2,9 @@
   <div
     class="relative font-sans antialiased leading-10 tracking-widest text-gray-900 bg-gray-200 "
   >
-    <AppNav />
     <main class="z-10">
       <Nuxt />
     </main>
-    <AppFooter />
   </div>
 </template>
 
