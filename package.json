@@ -15,10 +15,7 @@
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
-    "nuxt-edge": "latest",
-    "vue-animate-onscroll": "^1.0.8",
-    "vue-slick-carousel": "^1.0.6",
-    "vue-typical": "^1.4.0"
+    "nuxt-edge": "latest"
   },
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27236862.0b45721",
@@ -28,8 +25,6 @@
     "@nuxtjs/tailwindcss": "^3.0.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.8.1",
-    "eslint-plugin-nuxt": "^1.0.0",
-    "nuxt-animejs": "^1.2.1",
-    "tailwindcss-dark-mode": "^1.1.7"
+    "eslint-plugin-nuxt": "^1.0.0"
   }
 }
